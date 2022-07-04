@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="StrumentoMusicale" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="birds03" translatesAutoresizingMaskIntoConstraints="NO" id="yBx-nl-0Mt">
+                                <rect key="frame" x="-188" y="-397" width="654" height="1742"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="71P-vu-1oQ">
+                                <rect key="frame" x="0.0" y="44" width="414" height="822"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bird Watching" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h0O-QT-3FD">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="68.5"/>
+                                        <color key="backgroundColor" systemColor="secondaryLabelColor"/>
+                                        <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="31"/>
+                                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="yvY-by-5xT">
+                                        <rect key="frame" x="0.0" y="68.5" width="414" height="68.5"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="tintColor" systemColor="systemBlueColor"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Domestic chicken">
+                                            <backgroundConfiguration key="background">
+                                                <color key="backgroundColor" systemColor="secondaryLabelColor"/>
+                                            </backgroundConfiguration>
+                                            <fontDescription key="titleFontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="35"/>
+                                            <color key="baseForegroundColor" systemColor="systemGray3Color"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="monkey00:" destination="BYZ-38-t0r" eventType="touchUpInside" id="AC6-2I-Ln1"/>
+                                            <action selector="monkey00:" destination="7i4-dC-msb" eventType="touchUpInside" id="BAv-Py-PuZ"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="pwD-Iz-bcs">
+                                        <rect key="frame" x="0.0" y="137" width="414" height="68.5"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="tintColor" systemColor="systemBlueColor"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Red-Billed Quelea">
+                                            <backgroundConfiguration key="background">
+                                                <color key="backgroundColor" systemColor="labelColor"/>
+                                            </backgroundConfiguration>
+                                            <fontDescription key="titleFontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="35"/>
+                                            <color key="baseForegroundColor" systemColor="systemGray3Color"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="monkey01:" destination="BYZ-38-t0r" eventType="touchUpInside" id="KZE-2D-KjR"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="xSJ-FA-EVx">
+                                        <rect key="frame" x="0.0" y="205.5" width="414" height="68.5"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="tintColor" systemColor="systemBlueColor"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Mourning Dove">
+                                            <backgroundConfiguration key="background">
+                                                <color key="backgroundColor" systemColor="secondaryLabelColor"/>
+                                            </backgroundConfiguration>
+                                            <fontDescription key="titleFontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="35"/>
+                                            <color key="baseForegroundColor" systemColor="systemGray3Color"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="monkey02:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2TS-NX-4VQ"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="PZo-HI-6hQ">
+                                        <rect key="frame" x="0.0" y="274" width="414" height="68.5"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="tintColor" systemColor="systemBlueColor"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="American Robin">
+                                            <backgroundConfiguration key="background">
+                                                <color key="backgroundColor" systemColor="labelColor"/>
+                                            </backgroundConfiguration>
+                                            <fontDescription key="titleFontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="35"/>
+                                            <color key="baseForegroundColor" systemColor="systemGray3Color"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="monkey03:" destination="BYZ-38-t0r" eventType="touchUpInside" id="agO-5P-pd3"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="WcN-Mo-JS1">
+                                        <rect key="frame" x="0.0" y="342.5" width="414" height="68.5"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="tintColor" systemColor="systemBlueColor"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Common Pheasant">
+                                            <backgroundConfiguration key="background">
+                                                <color key="backgroundColor" systemColor="secondaryLabelColor"/>
+                                            </backgroundConfiguration>
+                                            <fontDescription key="titleFontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="35"/>
+                                            <color key="baseForegroundColor" systemColor="systemGray2Color"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="monkey04:" destination="BYZ-38-t0r" eventType="touchUpInside" id="05X-lZ-ms3"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="OUH-Iv-M38">
+                                        <rect key="frame" x="0.0" y="411" width="414" height="68.5"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="tintColor" systemColor="systemBlueColor"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Red-Winged Blackbird">
+                                            <backgroundConfiguration key="background">
+                                                <color key="backgroundColor" systemColor="labelColor"/>
+                                            </backgroundConfiguration>
+                                            <fontDescription key="titleFontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="35"/>
+                                            <color key="baseForegroundColor" systemColor="systemGray3Color"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="monkey05:" destination="BYZ-38-t0r" eventType="touchUpInside" id="o97-Te-uvj"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="hM0-Lk-N7t">
+                                        <rect key="frame" x="0.0" y="479.5" width="414" height="68.5"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="tintColor" systemColor="systemBlueColor"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Chipping Sparrow">
+                                            <backgroundConfiguration key="background">
+                                                <color key="backgroundColor" systemColor="secondaryLabelColor"/>
+                                            </backgroundConfiguration>
+                                            <fontDescription key="titleFontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="35"/>
+                                            <color key="baseForegroundColor" systemColor="systemGray3Color"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="monkey06:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ZBD-ap-x7t"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AL0-yy-aBu">
+                                        <rect key="frame" x="0.0" y="548" width="414" height="68.5"/>
+                                        <color key="tintColor" systemColor="systemBlueColor"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Common Starling">
+                                            <backgroundConfiguration key="background">
+                                                <color key="backgroundColor" systemColor="labelColor"/>
+                                            </backgroundConfiguration>
+                                            <fontDescription key="titleFontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="35"/>
+                                            <color key="baseForegroundColor" systemColor="systemGray3Color"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="monkey07:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6HC-EM-8ko"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="dOE-88-Vfn">
+                                        <rect key="frame" x="0.0" y="616.5" width="414" height="68.5"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="tintColor" systemColor="systemBlueColor"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Common Swift">
+                                            <backgroundConfiguration key="background">
+                                                <color key="backgroundColor" systemColor="secondaryLabelColor"/>
+                                            </backgroundConfiguration>
+                                            <fontDescription key="titleFontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="35"/>
+                                            <color key="baseForegroundColor" systemColor="systemGray3Color"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="button09:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fFG-QB-bLZ"/>
+                                            <action selector="monkey06:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CpQ-eb-JCL"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MPY-1f-NAg">
+                                        <rect key="frame" x="0.0" y="685" width="414" height="68.5"/>
+                                        <color key="tintColor" systemColor="systemBlueColor"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Yellow-Rumped Warbler">
+                                            <backgroundConfiguration key="background">
+                                                <color key="backgroundColor" systemColor="labelColor"/>
+                                            </backgroundConfiguration>
+                                            <fontDescription key="titleFontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="35"/>
+                                            <color key="baseForegroundColor" systemColor="systemGray3Color"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="button08:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wtN-eh-nEQ"/>
+                                            <action selector="monkey07:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Xoi-JN-438"/>
+                                        </connections>
+                                    </button>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pause00" translatesAutoresizingMaskIntoConstraints="NO" id="IIa-Fi-GuM">
+                                        <rect key="frame" x="0.0" y="753.5" width="414" height="68.5"/>
+                                        <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
+                                    </imageView>
+                                </subviews>
+                            </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P9M-rH-m8q">
+                                <rect key="frame" x="20" y="819" width="374" height="77"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title=""/>
+                                <connections>
+                                    <action selector="pauseButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qcu-Aj-VO4"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="71P-vu-1oQ" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="48Q-mc-YvB"/>
+                            <constraint firstItem="71P-vu-1oQ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="9QT-UN-JoU"/>
+                            <constraint firstItem="71P-vu-1oQ" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" id="DLa-fQ-cb6"/>
+                            <constraint firstItem="71P-vu-1oQ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Det-28-mDt"/>
+                            <constraint firstAttribute="bottom" secondItem="71P-vu-1oQ" secondAttribute="bottom" constant="20" id="W8E-gn-5cb"/>
+                            <constraint firstItem="71P-vu-1oQ" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="YpD-G0-R1L"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="71P-vu-1oQ" secondAttribute="bottom" id="aiG-Wl-lqo"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="71P-vu-1oQ" secondAttribute="bottom" id="e65-9A-qhh"/>
+                            <constraint firstItem="71P-vu-1oQ" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" constant="20" id="hkb-Iq-V72"/>
+                            <constraint firstItem="71P-vu-1oQ" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="iS7-ag-CAd"/>
+                            <constraint firstItem="71P-vu-1oQ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="xDG-u8-gw6"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <exit id="7i4-dC-msb" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="34.782608695652179" y="97.767857142857139"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="birds03" width="960" height="1398"/>
+        <image name="pause00" width="520" height="520"/>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="opaqueSeparatorColor">
+            <color red="0.77647058823529413" green="0.77647058823529413" blue="0.78431372549019607" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="secondaryLabelColor">
+            <color red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBlueColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemGray2Color">
+            <color red="0.68235294117647061" green="0.68235294117647061" blue="0.69803921568627447" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemGray3Color">
+            <color red="0.7803921568627451" green="0.7803921568627451" blue="0.80000000000000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
